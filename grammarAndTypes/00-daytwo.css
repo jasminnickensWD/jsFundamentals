@@ -1,0 +1,13 @@
+.movie-wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.movies-table{
+    background-color: lightskyblue;
+    border: solid black 6px;
+}
+
+.title{
+    font-style: italic
+}
