@@ -1,0 +1,27 @@
+#title{
+    color:lightgreen;
+    text-align: cneter;
+}
+
+.headings {
+    color:blue
+}
+
+.descriptions{
+    color: red
+}
+
+div{
+    border:black;
+    border-width:25px;
+    border-style: solid; */
+
+}
+
+.first, .second, .third{
+
+}
+
+.prompts{
+    display:flex
+}
