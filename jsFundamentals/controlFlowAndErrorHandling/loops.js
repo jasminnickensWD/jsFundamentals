@@ -74,3 +74,84 @@ if(index === 0){
     }
 }
 console.log(propCase);
+
+
+
+//FOR IN VERSION
+let myName = 'dwIght';
+let propCase;
+
+for(index in myName){
+
+    index == 0 ? propCase = myName[index].toUpperCase() : propCase += myName[index].toLowerCase();
+}
+console.log(propCase);
+
+
+let myObject = {
+    string: 'Peter',
+    boolean: true,
+    number: 1
+};
+
+for(item of myObject){
+
+}
+
+
+let indexArray = ['spot 1', 2, true, 'not fifth'];
+
+for(let pos of indexArray){
+    console.log(pos, '');
+}
+//incomplete
+
+
+
+
+
+let officeCharacters = ['Dwight', 'Michael', 'Jim', 'Stanley', 'Pam'];
+
+for(worker of officeCharacters){
+    if(worker === 'Dwight' || worker === 'Michael'){
+    console.log(worker, 'works too much in the office');
+    }
+}
+
+
+
+//SCOPES
+
+let scope = 'Earth';// globally scoped variable, think of this as the 'Earth' level
+
+let getFromGlobal = 'the moon!';
+
+if(true){
+    let scope = 'Indiana'; //locally scoped variable, think of this as the 'State' level
+
+    console.log(scope, 'marks the local scope');
+
+    let kindaLocal = 'Noblesville';
+
+    if(true){
+        let scope = 'Indianapolis';//local scope inside of a local scope ('city' level)
+        console.log(scope, 'is the capitol of Indiana');
+
+        let anotherScope = 'Hello from Indianapolis';
+
+        console.log(`While looking outside of my very local area, I went to ${kindaLocal} at night and saw ${getFromGlobal}`);
+    }
+    console.log(scope, 'should be closest to Indianapolis');
+    console.log(anotherScope, 'should be closest to Indianapolis');
+}
+
+//incomplete
+
+
+let ordered = 1
+
+/*
+    LET vs VAR
+
+
+    Var and Let seem too operate the say 
