@@ -83,8 +83,8 @@ let shoot = (x,y)=> {
         console.log(`${x} only shot ${y} arrow...`)}
         else {
         console.log(`${x} shot ${y} arrowws at the target!`);
-        }
-    }
-}
+        };
+    };
+};
 
 shoot(hero,nock)
